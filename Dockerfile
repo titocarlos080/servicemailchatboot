@@ -2,7 +2,7 @@
 FROM python:3.9-slim
 
 # Establece el directorio de trabajo en el contenedor
-WORKDIR /app
+WORKDIR /
 
 # Copia los archivos de requerimientos y los instala
 COPY requirements.txt requirements.txt
@@ -16,3 +16,5 @@ EXPOSE 5000
 
 # Comando para ejecutar la aplicación Flask
 CMD ["python", "app.py"]
+#Pwdsudo@/*-
+    Pwdsudo@/*-
