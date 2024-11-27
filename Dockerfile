@@ -17,4 +17,4 @@ EXPOSE 5000
 # Comando para ejecutar la aplicación Flask
 CMD ["python", "app.py"]
 #Pwdsudo@/*-
-    Pwdsudo@/*-
+    
