@@ -26,8 +26,7 @@ def create_app():
     # Inicializar extensiones
     db.init_app(app)
     mail.init_app(app)
-    CORS(app)
-
+    CORS(app, origins=["https://surbug.netlify.app", "http://localhost:5000", "http://127.0.0.1:5000"])
     # Registrar rutas
     with app.app_context():
         from app.routes.contacto import contacto_bp
